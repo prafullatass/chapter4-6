@@ -1,5 +1,6 @@
 
-/*
+
+//odd or Even
 
 const oddOrEven = (num) =>{
     if(num%2 === 0)
@@ -19,22 +20,25 @@ numArray.forEach(element => {
 });
 
 
+//Chicken Monkey
 for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
     // Divide the current number by 2, and check if the remainder is 0
     if (currentNumber % 2 === 0) {
-        console.log(currentNumber) // Only 2, 4, 6 will appear
+        console.log(`${currentNumber}. Divisibale By 2`) // Only 2, 4, 6 will appear
+       //Chicken Monkey
         if (currentNumber % 5 === 0)
-            console.log("Chicken")
+            console.log(`${currentNumber}.  Chicken`)
         if(currentNumber % 7 === 0)
         {
-            console.log("Monkey")
+            console.log(`${currentNumber}.  Monkey`)
             if(currentNumber % 5 === 0)
-                console.log("ChickenMonkey")
+                console.log(`${currentNumber}.  ChickenMonkey`)
         }
     }
 }
 
-*/
+
+//Band
 
 let bandNumber = 1
 
@@ -55,6 +59,8 @@ console.log(scum)  // This should print "1. Galactic Scum" in the console
 const under = takeNumber("Underdogs")
 console.log(under)  // This should print "2. Underdogs" in the console
 
+
+//Food Array
 const hamburger = {
 	name: 'Hamburger',
 	type: 'beef',
